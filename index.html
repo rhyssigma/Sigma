@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            The Spore Bugs
+        </title>
+        <style>
+            body {
+                background-color: rgb(46, 8, 16);
+            }
+            aside {
+                position: sticky;
+                display: flex;
+                justify-content: start;
+                border-width: 5px;
+                border-radius: 5px;
+                border-style: double;
+                border-color: rgb(146, 87, 9);
+                font-size: 20px;
+                font-weight: bold;
+                width: 25%;
+                float: left;
+                background-color: rgb(190, 141, 75);
+            }
+            h1 {
+                text-align: center;
+                color: rgb(194, 36, 50);
+                font-size: 55px;
+                text-decoration: underline;
+            }
+            .p {
+                text-align: center;
+                color: rgb(177, 42, 53);
+                text-decoration: underline;
+                font-size: 20px;
+                font-weight: bolder;
+            }
+            header {
+                background-color: rgb(207, 104, 19);
+            }
+            .sec1  {
+                color:rgb(218, 107, 16);
+                text-align: center;
+                font-size: 20px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+             .main1 {
+                font-size: 25px;
+                width: 50%;
+                text-align: center;
+                color: rgb(206, 80, 30);
+                display: flex;
+                justify-content: left;
+            }
+            .fig, .fi {
+                display: flex;
+                justify-content:space-between;
+                color: rgb(211, 102, 12);
+            }
+            .art {
+                color: rgb(238, 34, 19);
+                display: flex;
+                justify-content: end;
+            }
+            .sum {
+                display: flex;
+                justify-content: center;
+                font-size: 30px;
+                font-weight: bolder;
+                color: rgb(226, 46, 15);
+                background-color: rgb(192, 152, 20);
+                cursor: pointer;
+                text-align: center;
+            }
+            .nav {
+                position: sticky;
+                top: 0;
+                background-color: rgb(243, 3, 3);
+                text-align: center;
+                font-weight: bolder;
+            }
+            .lin {
+                border-style: double;
+                background-color: rgb(194, 96, 5);
+                border-width: 4px;
+            }
+            a:link {
+                color: rgb(123, 16, 133);
+            }
+        </style>
+    </head>
+    <head>
+        <header id="top">
+            <h1>The Spore Strain</h1>
+            <p class="p"> Header — What introductory content does this element contain in your project? <br>
+                Explanation: The header contains the h1 tag, the logo, and any introduction content.</p>
+        </header>
+        <nav class="nav">
+            <a href="#bot" class="lin">Bottom</a>
+            <a href="#pics" class="lin">Pictures</a>
+            <p> Nav — Why do these links belong in a navigation area? <br>
+            Explanation: Links belong in the nav bar because the nav goes at the top of the website and the links allow you to travel around the page from the top</p>
+        </nav>
+        <aside>
+            <p>The Bugs come in many different types, the spore strain is one of many sub-factions on the bug front</p>
+            <p> 
+                Aside — How does this related content support the main content without being the main focus? <br>
+                Explanation: The Aside element adds information that is on the side in order to not take away from the main focus but also add extra information
+            </p>
+        </aside>
+        <main>
+            <section class="sec1">
+                <h2 class="h2">What They Bring to The Table</h2>
+                <p>The spore burst strain add fast and explosive bugs that specialize in getting in your face.<br>
+                 Killing one bug releases spores that increase the speed of any other bug that enters that section.<br>
+                 The clouds also inflict a small damage over time effect when caught in the explosion.
+                </p>
+                <p>
+                    Section — What makes this a distinct group of related content? <br>
+                    Explanation: This section splits the content into its own section with a heading and information.
+                </p>
+            </section>
+            <p class="main1">
+                Main — What makes this the primary content of your page?<br>
+                Explanation: This contains the main information the website wants to provide.
+            </p>
+            <figure class="fig">
+                <img src="sporehunt.webp" alt="Spore Burst Hunter" width="250px">
+                <figcaption id="pics">
+                    Spore Burst Hunter
+                </figcaption>
+                <img src="burst war.webp" alt="Spore Burst Warrior" width="250px">
+                <figcaption>
+                    Spore Burst Warrior
+                </figcaption>
+                <img src="sporetitan.webp" alt="Spore Burst Titan" width="250px">
+                <figcaption>
+                    Spore Burst Titan
+                </figcaption>
+                <img src="nerd.jpg" alt="idk" width="150px">
+                <figcaption>
+                    Figcaption — What does the caption explain about its figure? <br>
+                    The caption explains what the figure is and sometimes its location
+                </figcaption>
+            </figure>
+            <p class="fi"> Figure — Why are this visual and its caption grouped together? <BR>
+                Visual and caption are grouped together in order to keep information about the picture in the same relevent section</p>
+        </main>
+        <article class="art">
+            Article — Why is this content suitable for an article instead of just an ordinary section? <br>
+            Example: Content is suitable for articles when the information is more based on a side story.
+        </article>
+        <details>
+            <summary class="sum">SPORE</summary>
+                <p class="sum">!Spore Burst bugs are not the most common but can be a big problem along with a large overwhelming problem!</p>
+                <p class="sum">Details — What happens when a visitor opens or closes this element? <br>
+                    Explanation: When closing or opening a detail it condenses or expands extra information</p>
+                <p class="sum">Summary — What role does this element play inside details? <br>
+                     Explanation: Summary adds a specified heading for the detail</p>
+        </details>
+        <footer id="bot">
+            <a href="#top">Back to Top</a>
+            <p class="fi"> Footer — What information belongs here? Can another section have its own footer?<br>
+            Footers contain contact and copyright information, and there can be multiple footer elements.</p>
+        </footer>
+    </head>
+</html>
